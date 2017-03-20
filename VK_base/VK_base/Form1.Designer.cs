@@ -34,7 +34,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.SpamButton = new System.Windows.Forms.Button();
-            this.DogPatulButton = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.менюToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.рассылкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -48,6 +47,7 @@
             this.addFriends_button = new System.Windows.Forms.Button();
             this.gropssercbaton = new System.Windows.Forms.Button();
             this.Laikbutton = new System.Windows.Forms.Button();
+            this.Doggie = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -90,23 +90,13 @@
             // 
             // SpamButton
             // 
-            this.SpamButton.Location = new System.Drawing.Point(709, 39);
+            this.SpamButton.Location = new System.Drawing.Point(707, 63);
             this.SpamButton.Name = "SpamButton";
             this.SpamButton.Size = new System.Drawing.Size(184, 25);
             this.SpamButton.TabIndex = 4;
             this.SpamButton.Text = "Рассылка";
             this.SpamButton.UseVisualStyleBackColor = true;
             this.SpamButton.Click += new System.EventHandler(this.SpamButton_Click);
-            // 
-            // DogPatulButton
-            // 
-            this.DogPatulButton.Location = new System.Drawing.Point(709, 80);
-            this.DogPatulButton.Name = "DogPatulButton";
-            this.DogPatulButton.Size = new System.Drawing.Size(184, 23);
-            this.DogPatulButton.TabIndex = 5;
-            this.DogPatulButton.Text = "Собачий патруль";
-            this.DogPatulButton.UseVisualStyleBackColor = true;
-            this.DogPatulButton.Click += new System.EventHandler(this.DogPatulButton_Click);
             // 
             // menuStrip1
             // 
@@ -141,7 +131,7 @@
             // 
             // AutoLike_button
             // 
-            this.AutoLike_button.Location = new System.Drawing.Point(709, 124);
+            this.AutoLike_button.Location = new System.Drawing.Point(709, 114);
             this.AutoLike_button.Name = "AutoLike_button";
             this.AutoLike_button.Size = new System.Drawing.Size(182, 23);
             this.AutoLike_button.TabIndex = 7;
@@ -179,7 +169,7 @@
             // Pirat_button
             // 
             this.Pirat_button.BackColor = System.Drawing.Color.SandyBrown;
-            this.Pirat_button.Font = new System.Drawing.Font("News706 BT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Pirat_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Pirat_button.Location = new System.Drawing.Point(711, 280);
             this.Pirat_button.Name = "Pirat_button";
             this.Pirat_button.Size = new System.Drawing.Size(184, 77);
@@ -189,7 +179,7 @@
             // 
             // addFriends_button
             // 
-            this.addFriends_button.Location = new System.Drawing.Point(711, 372);
+            this.addFriends_button.Location = new System.Drawing.Point(711, 382);
             this.addFriends_button.Name = "addFriends_button";
             this.addFriends_button.Size = new System.Drawing.Size(152, 48);
             this.addFriends_button.TabIndex = 13;
@@ -217,11 +207,22 @@
             this.Laikbutton.UseVisualStyleBackColor = true;
             this.Laikbutton.Click += new System.EventHandler(this.Laikbutton_Click);
             // 
+            // Doggie
+            // 
+            this.Doggie.Location = new System.Drawing.Point(423, 299);
+            this.Doggie.Name = "Doggie";
+            this.Doggie.Size = new System.Drawing.Size(180, 77);
+            this.Doggie.TabIndex = 16;
+            this.Doggie.Text = "Поиск \"собачек\"";
+            this.Doggie.UseVisualStyleBackColor = true;
+            this.Doggie.Click += new System.EventHandler(this.Doggie_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(945, 470);
+            this.Controls.Add(this.Doggie);
             this.Controls.Add(this.Laikbutton);
             this.Controls.Add(this.gropssercbaton);
             this.Controls.Add(this.addFriends_button);
@@ -230,7 +231,6 @@
             this.Controls.Add(this.find_groups_box);
             this.Controls.Add(this.autoadd);
             this.Controls.Add(this.AutoLike_button);
-            this.Controls.Add(this.DogPatulButton);
             this.Controls.Add(this.SpamButton);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
@@ -256,7 +256,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button SpamButton;
-        private System.Windows.Forms.Button DogPatulButton;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem менюToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem рассылкаToolStripMenuItem;
@@ -270,6 +269,7 @@
         private System.Windows.Forms.Button addFriends_button;
         private System.Windows.Forms.Button gropssercbaton;
         private System.Windows.Forms.Button Laikbutton;
+        private System.Windows.Forms.Button Doggie;
     }
 }
 

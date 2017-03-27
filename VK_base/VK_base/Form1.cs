@@ -104,5 +104,11 @@ namespace WindowsFormsApplication1
             AutoLike_form serc = new AutoLike_form();
             serc.ShowDialog();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            DoggieForm dog = new DoggieForm();
+            dog.ShowDialog();
+        }
     }
 }

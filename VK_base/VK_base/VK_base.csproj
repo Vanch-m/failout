@@ -58,6 +58,12 @@
     <Compile Include="AvtoLaikGroup.Designer.cs">
       <DependentUpon>AvtoLaikGroup.cs</DependentUpon>
     </Compile>
+    <Compile Include="DoggieForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoggieForm.Designer.cs">
+      <DependentUpon>DoggieForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DogPatrulForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     </Compile>
     <EmbeddedResource Include="AvtoLaikGroup.resx">
       <DependentUpon>AvtoLaikGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoggieForm.resx">
+      <DependentUpon>DoggieForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DogPatrulForm.resx">
       <DependentUpon>DogPatrulForm.cs</DependentUpon>

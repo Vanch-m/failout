@@ -72,17 +72,17 @@ namespace WindowsFormsApplication1
 
         private void SpamButton_Click(object sender, EventArgs e)
         {
-            DoggieForm frm=  new DoggieForm();
+            SpamForm frm = new SpamForm();
             frm.ShowDialog();
         }
 
         private void DogPatulButton_Click(object sender, EventArgs e)
-          {
+        {
             DogPatrulForm frm = new DogPatrulForm();
-             frm.ShowDialog();
-                                             }
-                                                                                                         //!!!Увага!!!Внимание!!! Attention!!! Название проекта: failout
-         private void AutoLike_button_Click(object sender, EventArgs e)
+            frm.ShowDialog();
+        }
+
+        private void AutoLike_button_Click(object sender, EventArgs e)
         {
             AutoLike_form frm = new AutoLike_form();
             frm.ShowDialog();
@@ -103,12 +103,6 @@ namespace WindowsFormsApplication1
         {
             AutoLike_form serc = new AutoLike_form();
             serc.ShowDialog();
-        }
-
-        private void Doggie_Click(object sender, EventArgs e)
-        {
-        DoggieForm dog = new DoggieForm();
-            dog.ShowDialog();
         }
     }
 }
